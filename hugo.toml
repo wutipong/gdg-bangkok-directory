@@ -1,6 +1,6 @@
 baseURL = 'https://directory.council.sleepyhead.app/'
 languageCode = 'en-us'
-title = 'The Council'
+title = 'Game Directory by The Council'
 theme = 'tailbliss'
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
@@ -111,11 +111,11 @@ enabled = false
 
 [menu]
 
-[[menu.main]]
-name = "Home"
-identifier = "menu.home"
-url = "/"
-weight = 1
+# [[menu.main]]
+# name = "Home"
+# identifier = "menu.home"
+# url = "/"
+# weight = 1
 
 # [[menu.main]]
 # name = "About Us"
@@ -124,43 +124,22 @@ weight = 1
 # pre = "dropdown"
 
 [[menu.main]]
-name = "Our Team"
-weight = 3
-identifier = "people"
-pre = "dropdown"
+name = "Games"
+weight = 1
+identifier = "games"
+url = "/games"
 
 [[menu.main]]
-name = "Our Partners"
-weight = 3
-identifier = "partners"
-url = "/partners"
+name = "Browse by Publishers"
+weight = 2
+identifier = "publishers"
+url = "/publishers"
 
 [[menu.main]]
-name = "Contact"
-weight = 10
-url = "/contact"
-
-[[menu.about]]
-name = "Our Mission"
-weight = 1
-url = "/about/about/"
-
-[[menu.about]]
-name = "Branding"
-weight = 2
-url = "/about/branding/"
-
-[[menu.people]]
-name = "Core Team"
-identifier = "menu.core-team"
-url = "/people/core-team"
-weight = 1
-
-[[menu.people]]
-name = "Volunteers"
-identifier = "menu.volunteers"
-url = "/people/volunteers"
-weight = 2
+name = "Browse by Developers"
+weight = 3
+identifier = "developers"
+url = "/developers"
 
 [[menu.footer]]
 name = "Home"
@@ -168,10 +147,10 @@ identifier = "menu.home"
 url = "/"
 weight = 1
 
-[[menu.footer]]
-name = "Contact"
-weight = 10
-url = "/contact"
+# [[menu.footer]]
+# name = "Contact"
+# weight = 10
+# url = "/contact"
 
 [markup]
 defaultMarkdownHandler = 'goldmark'

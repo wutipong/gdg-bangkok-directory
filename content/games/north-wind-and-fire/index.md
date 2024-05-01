@@ -1,13 +1,15 @@
 +++
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+title = 'North, Wind & Fire'
 date = 2024-05-02T01:33:13+07:00
-draft = true
+draft = false
 developers = ['Square-Enix']
 publishers = ['Sony Computer Entertainment']
 [params]
     steam_url = 'https://store.steampowered.com/app/99999/NorthWindAndFire/'
     presskit_url = 'https://example.com/nort-wind-and-fire'
 +++
+
+## WARNING : SAMPLE CONTENTS -- DO NOT USE --
 
 ## Summary
 
@@ -25,3 +27,4 @@ publishers = ['Sony Computer Entertainment']
 {{< figure src="screenshot2.webp" title="#2 screenshot" >}}
 {{< figure src="screenshot3.webp" title="#3 screenshot" >}}
 {{< figure src="screenshot4.webp" title="#4 screenshot" >}}
+

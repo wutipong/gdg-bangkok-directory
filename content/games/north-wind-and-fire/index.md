@@ -27,4 +27,3 @@ publishers = ['Sony Computer Entertainment']
 {{< figure src="screenshot2.webp" title="#2 screenshot" >}}
 {{< figure src="screenshot3.webp" title="#3 screenshot" >}}
 {{< figure src="screenshot4.webp" title="#4 screenshot" >}}
-
